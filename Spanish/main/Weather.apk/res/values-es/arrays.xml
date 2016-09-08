@@ -75,7 +75,7 @@
         <item>%s</item>
         <item>%s</item>
     </string-array>
-        <string-array name="aqi_value">
+    <string-array name="aqi_value">
         <item>Bueno</item>
         <item>Satisfactorio</item>
         <item>Moderadamente contaminado</item>

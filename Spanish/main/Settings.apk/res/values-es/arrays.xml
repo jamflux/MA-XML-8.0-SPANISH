@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Explorando…</item>
+        <item>Conectando…</item>
+        <item>Autenticando…</item>
+        <item>Obteniendo la dirección IP…</item>
+        <item>Conectado</item>
+        <item>Suspendido</item>
+        <item>Desconectando…</item>
+        <item>Desconectado</item>
+        <item>Incorrecto</item>
+        <item>Bloqueada</item>
+        <item>Desactivando mala conexión temporalmente</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Explorando…</item>
+        <item>Conectando a %1$s…</item>
+        <item>Autenticando con %1$s…</item>
+        <item>Obteniendo dirección IP de %1$s…</item>
+        <item>Conectado a %1$s</item>
+        <item>Suspendido</item>
+        <item>Desconectando de %1$s…</item>
+        <item>Desconectado</item>
+        <item>Incorrecto</item>
+        <item>Bloqueada</item>
+        <item>Desactivando mala conexión temporalmente</item>
+    </string-array>
     <string-array name="status_bar_style_entries">
         <item>Combinar</item>
         <item>Separar</item>
@@ -48,7 +76,6 @@
         <item>Normal</item>
         <item>Grande</item>
         <item>Enorme</item>
-        <item>godzilla</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>Muy lento</item>
@@ -68,39 +95,14 @@
         <item>Alta</item>
         <item>Muy alto</item>
     </string-array>
-    <string-array name="wifi_status">
-        <item></item>
-        <item>Explorando…</item>
-        <item>Conectando…</item>
-        <item>Autenticando…</item>
-        <item>Obteniendo la dirección IP…</item>
-        <item>Conectado</item>
-        <item>Suspendido</item>
-        <item>Desconectando…</item>
-        <item>Desconectado</item>
-        <item>Incorrecto</item>
-        <item>Bloqueada</item>
-        <item>Desactivando mala conexión temporalmente</item>
-    </string-array>
-    <string-array name="wifi_status_with_ssid">
-        <item></item>
-        <item>Explorando…</item>
-        <item>Conectando a %1$s…</item>
-        <item>Autenticando con %1$s…</item>
-        <item>Obteniendo dirección IP de %1$s…</item>
-        <item>Conectado a %1$s</item>
-        <item>Suspendido</item>
-        <item>Desconectando de %1$s…</item>
-        <item>Desconectado</item>
-        <item>Incorrecto</item>
-        <item>Bloqueada</item>
-        <item>Desactivando mala conexión temporalmente</item>
-    </string-array>
     <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
         <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Presionar botón</item>
@@ -139,10 +141,6 @@
     <string-array name="data_usage_data_range">
         <item>Últimos 30 días</item>
         <item>Configurar ciclo de uso…</item>
-    </string-array>
-    <string-array name="sim_card_data_range">
-        <item>Últimos cuatro dígitos</item>
-        <item>Primeros cuatro dígitos</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Automático</item>
@@ -196,6 +194,19 @@
         <item>LTE</item>
         <item>eHRPD</item>
         <item>Sin especificar</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
     </string-array>
     <string-array name="mvno_type_entries">
         <item>Ninguno</item>
@@ -214,7 +225,6 @@
         <item>Mensajería</item>
         <item>Medios</item>
         <item>Dispositivo</item>
-        <item>Bootup</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>ubicación aproximada</item>
@@ -267,16 +277,6 @@
         <item>activate VPN</item>
         <item>Cambio Wi-Fi</item>
         <item>bluetooth change</item>
-        <item>send MMS</item>
-        <item>read MMS</item>
-        <item>write MMS</item>
-        <item>auto start</item>
-        <item>nfc change</item>
-        <item>delete SMS</item>
-        <item>delete MMS</item>
-        <item>delete contacts</item>
-        <item>delete call log</item>
-        <item>data change</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Ubicación</item>
@@ -329,16 +329,6 @@
         <item>Activate VPN</item>
         <item>Cambio Wi-Fi</item>
         <item>Bluetooth change</item>
-        <item>Send MMS</item>
-        <item>Read MMS</item>
-        <item>Write MMS</item>
-        <item>Auto start</item>
-        <item>Nfc change</item>
-        <item>Delete SMS</item>
-        <item>Delete MMS</item>
-        <item>Delete contacts</item>
-        <item>Delete call log</item>
-        <item>Data change</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Corto</item>
@@ -450,6 +440,10 @@
         <item>1920 x 1080 xhdpi</item>
         <item>1920 x 1080 xhdpi (segura)</item>
         <item>1280 x 720 tvdpi; 1920 x 1080 xhdpi</item>
+        <item>4K (secure)</item>
+        <item>4K (upscaled)</item>
+        <item>4K (upscaled, secure)</item>
+        <item>720p, 1080p (dual screen)</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
         <item>Ninguna</item>
@@ -506,11 +500,7 @@
         <item>moderado</item>
         <item>bajo</item>
         <item>crítico</item>
-    </string-array>
-    <string-array name="entries_zen_mode">
-        <item>Desactivado</item>
-        <item>Interrupciones limitadas</item>
-        <item>Sin interrupciones</item>
+        <item>\?</item>
     </string-array>
     <string-array name="proc_stats_memory_states">
         <item>Normal</item>
@@ -582,6 +572,10 @@
         <item>Blanco</item>
         <item>Violeta</item>
     </string-array>
+    <string-array name="screen_key_position_action">
+        <item>Botón de menú a la izquierda, botón de volver a la derecha</item>
+        <item>Botón de volver a la izquierda, botón de menú a la derecha</item>
+    </string-array>
     <string-array name="screen_key_press_action">
         <item>Mostrar apps recientes</item>
         <item>Mostrar menú</item>
@@ -606,7 +600,7 @@
         <item>Street-snap(necesitas seleccionarlo en la cámara)</item>
         <item>Atajos en transporte público</item>
     </string-array>
-        <string-array name="long_press_volume_down_action_value">
+    <string-array name="long_press_volume_down_action_value">
         <item>ninguno</item>
         <item>Street-snap</item>
         <item>public_transportation_shortcuts</item>
@@ -948,7 +942,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Bloqueo de aplicaciones</item>
         <item>Segundo espacio</item>
     </string-array>
-        <string-array name="anr_record_interval_entries">
+    <string-array name="anr_record_interval_entries">
         <item>10 segundos</item>
         <item>20 segundos</item>
         <item>30 segundos</item>
@@ -963,9 +957,5 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Todos los días</item>
         <item>Entre semana</item>
         <item>Personalizar</item>
-    </string-array>
-    <string-array name="screen_key_position_action">
-        <item>Botón de menú a la izquierda, botón de volver a la derecha</item>
-        <item>Botón de volver a la izquierda, botón de menú a la derecha</item>
     </string-array>
 </resources>

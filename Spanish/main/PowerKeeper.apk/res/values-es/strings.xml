@@ -11,7 +11,6 @@
     <string name="disabled">Desactivado</string>
     <string name="no_applications">Vacio</string>
     <string name="add_applications">Seleccionar aplicaciones</string>
-    <string name="add_aplicaciones_title">Aplicaciones</string>
     <string name="select_items">%d seleccionado</string>
     <string name="settings_safetylegal_activity_loading">Espere un momento…</string>
     <string name="power_chooser_user_define_title">Nuevo modo</string>
@@ -70,9 +69,6 @@
     <string name="low">Ahorro de batería</string>
     <string name="middle">Balanceado</string>
     <string name="high">Rendimiento</string>
-    <string name="power_config_select_aplicaciones_title">Aplicaciones</string>
-    <string name="power_config_select_aplicaciones_empty">Pulse para seleccionar aplicaciones</string>
-    <string name="power_config_choose_aplicaciones">Seleccionar aplicaciones</string>
     <string name="power_config_title">Ajustes</string>
     <string name="power_config_app_launch_title">Primer plano</string>
     <string name="power_config_app_background_title">Segundo plano</string>
@@ -110,7 +106,6 @@
     <string name="hide_mode_ultimate_desc">El modo Ultimate está activo. Las aplicaciones en segundo plano se congelarán. Desactive el ahorrador de batería para salir del modo Ultimate.</string>
     <string name="power_hide_mode_title">Gestión de aplicaciones de uso de la batería</string>
     <string name="power_hide_mode_summary">Ahorra battería configurando aplicaciones que se ejecutan en segundo plano, Wi-Fi, conexión a internet celular y uso de GPS</string>
-    <string name="power_config_aplicaciones">Ahorro de energía en segundo plano</string>
     <string name="app_list_title">Seleccionar aplicaciones</string>
     <string name="power_hide_mode_app_list_summary">Ajustes de aplicaciones</string>
     <string name="app_list_total">%d aplicaciones</string>
@@ -124,7 +119,6 @@
     <string name="power_config_ultimate_on_already">Modo Ultimate activo</string>
     <string name="power_config_ultimate_off_already">Modo Ultimate desactivado</string>
     <string name="power_config_ultimate_unlock_already">Todos los elementos desbloqueados</string>
-    <string name="empty_title_aplicaciones_container_list">Sin aplicaciones</string>
     <string name="hints_loading_text">Espere un momento…</string>
     <string name="config_mode_title">Configuraciones de segundo plano</string>
     <string name="config_suggest_title">Economizador de batería MIUI</string>

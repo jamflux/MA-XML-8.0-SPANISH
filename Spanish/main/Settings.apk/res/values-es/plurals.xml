@@ -44,10 +44,6 @@
         <item quantity="other">Cantidad de aplicaciones que pueden leer notificaciones: %d</item>
         <item quantity="one">Cantidad de aplicaciones que pueden leer notificaciones: %d</item>
     </plurals>
-    <plurals name="manage_condition_providers_summary_nonzero">
-        <item quantity="other">Las aplicaciones %d proporcionan condiciones</item>
-        <item quantity="one">La aplicación %d proporciona condiciones</item>
-    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d dispositivos</item>
         <item quantity="one">%d dispositivo</item>

@@ -58,87 +58,8 @@
     <string name="video_editor_res_download_mobil_network_confirm_title">Usando datos móviles</string>
     <string name="video_editor_res_download_mobil_network_confirm_msg">¿Quiere descargar bandas sonoras usando la conexión de datos?</string>
     <string name="video_editor_res_download_failed_tips">No se pudo descargar, compruebe sus ajustes de red y vuelva a intentarlo</string>
-    <string name="photoeditor_name">Editor de fotos</string>
-    <string name="loading_failure">No se pudo cargar la foto</string>
-    <string name="saving_failure">No se pudo guardar la foto</string>
-    <string name="edited_photo_bucket_name">Editado</string>
-    <string name="save_photo">¿Desea guardar la foto editada?</string>
-    <string name="yes">Sí</string>
-    <string name="no">No</string>
-    <string name="save">Guardar</string>
-    <string name="autofix">Auto-ajuste</string>
-    <string name="crop">Recortar</string>
-    <string name="crossprocess">Proceso-cruzado</string>
-    <string name="documentary">Documental</string>
-    <string name="doodle">Garabato</string>
-    <string name="duotone">Bitono</string>
-    <string name="facelift">Brillo facial</string>
-    <string name="facetan">Bronceado</string>
-    <string name="filllight">Luz de relleno</string>
-    <string name="fisheye">Ojo de pez</string>
-    <string name="flip">Girar</string>
-    <string name="grain">Grano de película</string>
-    <string name="grayscale">Escala de grises</string>
-    <string name="highlight">Reflejos</string>
-    <string name="lomoish">Efecto lomo</string>
-    <string name="negative">Negativo</string>
-    <string name="posterize">Posterizar</string>
-    <string name="redeye">Ojos rojos</string>
-    <string name="rotate">Rotar</string>
-    <string name="saturation">Saturación</string>
-    <string name="sepia">Sepia</string>
-    <string name="shadow">Sombras</string>
-    <string name="sharpen">Enfocar</string>
-    <string name="straighten">Ajustar</string>
-    <string name="temperature">Calidez</string>
-    <string name="tint">Tinte</string>
-    <string name="vignette">Viñeta</string>
-    <string name="crop_tooltip">Arrastre los marcadores para recortar</string>
-    <string name="doodle_tooltip">Toque para garabatear</string>
-    <string name="flip_tooltip">Arrastre la foto para girarla</string>
-    <string name="redeye_tooltip">Toque para eliminar los ojos rojos</string>
-    <string name="rotate_tooltip">Arrastre la foto para girarla</string>
-    <string name="straighten_tooltip">Arrastre la foto para enderezarla</string>
-    <string name="contrast">Contraste</string>
-    <string name="frame_button">Marco</string>
-    <string name="frame_classic">Clásico</string>
-    <string name="frame_white">Blanco</string>
-    <string name="frame_black">Negro</string>
-    <string name="frame_semicircle">Semicírculo</string>
-    <string name="frame_movie">Película</string>
-    <string name="adjust">Mejorar</string>
-    <string name="effect">Filtros</string>
-    <string name="original">Ninguno</string>
-    <string name="early_bird">Amanecer</string>
-    <string name="brannan">Brannan</string>
-    <string name="cool">Frío</string>
-    <string name="rise">Cálido</string>
-    <string name="cool_portrait">Retrato</string>
-    <string name="old">Vintage</string>
-    <string name="camera_black_white">Blanco y negro</string>
-    <string name="black_white">B/N plano</string>
-    <string name="free">Personalizado</string>
-    <string name="square">Cuadrado</string>
-    <string name="original_scale">Original</string>
-    <string name="paint_brush">Pincel</string>
-    <string name="paint_highlight">Garabato</string>
-    <string name="paint_crop_tips">Coloque el área de destino de la imagen cerca del centro de la cuadrícula.</string>
-    <string name="paint_crop_cancel_title">Descartar cambios</string>
-    <string name="paint_crop_cancel_context">¿Guardar imagen recortada?</string>
-    <string name="do_not_save">No guardar</string>
-    <string name="paint_cancel_title">Descartar cambios</string>
-    <string name="paint_cancel_context">¿Descartar los cambios realizados en esta imagen?</string>
-    <string name="abandon">Cancelar</string>
-    <string name="crop_save_text">Guardar</string>
-    <string name="photo_save_succeed">Guardada correctamente</string>
-    <string name="paint_highlight_cancel_title">Descartar cambios</string>
-    <string name="paint_highlight_cancel_context">¿Guardar garabato?</string>
-    <string name="saturation_abbr">S</string>
-    <string name="highlight_abbr">H</string>
-    <string name="contrast_abbr">C</string>
     <string name="limit_height">La altura debe ser > 0</string>
     <string name="limit_width">El ancho debe ser > 0</string>
-    <string name="loading_dual_tip">Cargando doble foto...</string>
     <string name="app_name">Galería</string>
     <string name="home_page_label">Fotos</string>
     <string name="album_page_label">Álbumes</string>
@@ -148,6 +69,8 @@
     <string name="more_album_hint">, etc.</string>
     <string name="runtime_permission_ungranted">Galería cerrada, no se necesitan permisos</string>
     <string name="not_remind_again">No mostrar de nuevo</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
     <string name="home_page_empty">Vacía</string>
     <string name="people_page_label">Personas</string>
     <string name="people_page_unname">Sin nombre</string>
@@ -173,8 +96,8 @@
     <string name="rename_fail_msg">No se ha podido cambiar nombre</string>
     <string name="rename_from_contact">Nombre desde los contactos</string>
     <string name="contact_tip">Contacto</string>
-    <string name="confirm_merge_face_albums">" "<Data> ¿Merge this album with %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> ¿Combinar estos álbumes con %s? </Data>" "</string>
+    <string name="confirm_merge_face_albums">" \""<Data> ¿Merge this album with %s? </Data>"\" "</string>
+    <string name="confirm_merge_many_face_albums">" \""<Data> ¿Combinar estos álbumes con %s? </Data>"\" "</string>
     <string name="not_is">No</string>
     <string name="is">Sí</string>
     <string name="ignore_alert_title">¿No mostrar este álbum?</string>
@@ -201,10 +124,10 @@
     <string name="create_baby_album_later_toast">Creé un álbum del bebé en cualquier instante en Ajustes</string>
     <string name="not_remind_any_more">No mostrar de nuevo</string>
     <string name="not_ask_any_more">No preguntar de nuevo por \"%s\" respuestas</string>
-    <string name="confirm_recommandation_face_is">" "<Data> ¿Está seguro que es &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Esta persona se moverá al álbum \"%2$s\". </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_are">" "<Data> ¿Está seguro que estas personas son &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Estas personas se moverán al álbum \"%2$s\". </Data>" "</string>
-    <string name="confirm_recommandation_face_not">" "<Data> ¿Está seguro que este no es &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
-    <string name="confirm_recommandation_multiple_faces_not">" "<Data> ¿Está seguro que este no es &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
+    <string name="confirm_recommandation_face_is">" \" "<Data>"¿Está seguro que es &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Esta persona se moverá al álbum \"%2$s\". \" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" \" "<Data>"¿Está seguro que estas personas son &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Estas personas se moverán al álbum \"%2$s\". \" "</string>
+    <string name="confirm_recommandation_face_not">" \" "<Data>"¿Está seguro que este no es &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? \" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" \" "<Data>"¿Está seguro que este no es &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? \" "</string>
     <string name="set_group">Establezca el grupo</string>
     <string name="how_to_set_relation">Pulse y mantenga pulsado un álbum para crear un grupo</string>
     <string name="operation_remove_from_face_album">Quitar del álbum</string>
@@ -258,7 +181,6 @@
     <string name="cancel_baby_lock_wallpaper_confirm_msg">¿Cambiar al fondo por defecto de la pantalla de bloqueo?</string>
     <string name="baby_lock_wallpaper_cancelled">Se cambió al fondo por defecto de la pantalla de bloqueo</string>
     <string name="set_as_baby_lock_wallpaper">Establecer como fondo de pantalla de bloqueo</string>
-    
     <string name="edit_baby_info">Ver información del bebé</string>
     <string name="invite_tip">Compartir sus fotos de bebé</string>
     <string name="relation_text_father">Padre</string>
@@ -363,9 +285,11 @@
     <string name="operation_move_to_other_albums">Mover a otros álbumes</string>
     <string name="operation_show_in_photos_tab">Mostrar en la pestaña de Fotos</string>
     <string name="operation_not_show_in_photos_tab">No mostrar en la pestaña de Fotos</string>
+    <string name="operation_enter_delete_local">Eliminar las copias de las fotos y vídeos de este dispositivo</string>
     <string name="auto_upload_enable_toast_long_press_menu">La sincronización con Mi Cloud está activa, vaya al Álbum para verlo</string>
     <string name="auto_upload_disable_toast_long_press_menu">La sincronización con Mi Cloud está desactivada, vaya a Otros álbumes para verlo</string>
-    <string name="operation_enter_delete_local">Eliminar las copias de las fotos y vídeos de este dispositivo</string>
+    <string name="enable_auto_upload_tip">Este álbum será eliminado de otros álbumes una vez lo actives.</string>
+    <string name="disable_auto_upload_tip">Fotos nuevas y eliminadas no serán sincronizadas Mi Cloud. Este albúm será movido a otros álbumes.</string>
     <string name="remove_from_other_albums_tip">Active sincronizar con Mi Nube para mover elementos de otros álbumes. ¿Mover ahora?</string>
     <string name="move_to_other_albums_tip">La sincronización con Mi Nube se desactivará si mueve este álbum a otros álbumes. ¿Mover ahora?</string>
     <string name="turn_on_and_remove">Activar y mover</string>
@@ -422,8 +346,9 @@
     <string name="loading_fail_sync_off_message">No se pudieron cargar las fotos, la sincronización con Mi Cloud está desactivada.</string>
     <string name="turn_on_sync">Activar sincronización</string>
     <string name="download_canceled">Descarga cancelada</string>
-    <string name="set_as_wallpaper_description">Esta imagen es una miniatura. ¿Descargar la originial？</string>
     <string name="set_as_wallpaper_title">Establecer como fondo</string>
+    <string name="set_as_wallpaper_description">Esta imagen es una miniatura. ¿Descargar la originial？</string>
+    <string name="loading_dual_tip">Cargando doble foto...</string>
     <string name="must_pick_file">Seleccionar foto</string>
     <string name="send_multiple_files_hint_format">Enviar (%s)</string>
     <string name="send_too_many_files_error">No es posible enviar más de %d elementos a vez</string>
@@ -442,7 +367,6 @@
     <string name="tip_file_path">Ruta local:</string>
     <string name="tip_capture_location">Ubicación:</string>
     <string name="detail_title">Info. detallada</string>
-    <string name="disable_auto_upload_tip">"Fotos nuevas y eliminadas no serán sincronizadas Mi Cloud. Este albúm será movido a otros álbumes."</string>
     <string name="tip_screenshot_package_info">Nombre de la aplicación:</string>
     <string name="tip_not_download">No se encuentra en el dispositivo. Se descargará de Mi Cloud mientras se reproduce.</string>
     <string name="flash_on">Flash activado</string>
@@ -496,7 +420,6 @@
     <string name="context_menu_copy">Copiar</string>
     <string name="try_to_send">Enviar</string>
     <string name="email_picker_title">Add shared Email</string>
-    <string name="enable_auto_upload_tip">Este álbum será eliminado de otros álbumes una vez lo actives.</string>
     <string name="request_sms_url_failed">No se pudo obtener info</string>
     <string name="request_sms_url_title">Sugerencia</string>
     <string name="request_sms_url_msg">Solicitando info…</string>
@@ -699,7 +622,7 @@
     <string name="cloudfolder_name_reserved">El nombre del álbum está reservado</string>
     <string name="cloudfolder_contain_invalidate_char">"El nombre del álbum no puede contener '%s'"</string>
     <string name="cloudfolder_cannot_start_with">"El nombre del álbum no puede empezar con '%s'"</string>
-    <string name="quotation">\"%s\"</string>
+    <string name="quotation">%s</string>
     <string name="cloud_camera_display_name">Fotos de la cámara</string>
     <string name="cloud_screenshots_display_name">Capturas</string>
     <string name="error_title">No se pudo sincronizar</string>
@@ -714,12 +637,11 @@
     <string name="finish">Finalizar</string>
     <string name="revert">Revertir</string>
     <string name="filter">Filtro</string>
+    <string name="crop">Recortar</string>
     <string name="crop_and_rotate">Ajustar</string>
+    <string name="adjust">Mejorar</string>
     <string name="sticker">Pegatina</string>
-    <string name="doodle_pencil">Lápiz</string>
-    <string name="doodle_pen">Bolígrafo</string>
-    <string name="doodle_mark">Marcador</string>
-    <string name="doodle_brush">Pincel</string>
+    <string name="doodle">Garabato</string>
     <string name="doodle_mosaic">Mosaico</string>
     <string name="main_save_error_msg">No se pudieron guardar los cambios debido a un error</string>
     <string name="main_discard_confirm_message">Hay cambios sin guardar</string>
